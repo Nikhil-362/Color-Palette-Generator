@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    /* background-color: rgb(10, 70, 50); */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+body{
+    margin: 100px;
+    padding: 10px 200px;
+    background: linear-gradient(65deg, rgb(7, 26, 82) 3%, rgb(7, 26, 82) 40%, rgb(8, 105, 114) calc(40% + 1px), rgb(8, 105, 114) 60%, rgb(23, 185, 120) calc(60% + 1px), rgb(23, 185, 120) 68%, rgb(167, 255, 131) calc(68% + 1px), rgb(167, 255, 131) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+button{
+    margin-top: 100px;
+    padding: 18px 100px;
+    color: rgba(0, 0, 0, 0.672);
+    font-size: large;
+    font-weight: bolder;
+    border:none;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    position: sticky;
+    left: 40%;
+    /* bottom: 10%; */
+}
+
+button:hover{
+    box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3),
+    0px 15px 12px 0px rgba(0,0,0,0.22);
+
+}
+
+
+li{
+    list-style: none;
+}
+
+.colorbg {
+    height: 250px;
+    width: 200px;
+    background-color: rgb(240, 248, 255);
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.colorbg:hover {
+    box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3),
+    0px 15px 12px 0px rgba(0,0,0,0.22);
+
+}
+
+
+
+.colors{
+    background-color: rgba(181, 47, 132, 0.827);
+    height: 200px;
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.hex{
+    background-color: transparent;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media  screen and (max-width: 1000px) {
+    
+    body{
+        margin: 10px;
+        padding: 10px 20px;
+    }
+
+  
+}
+
